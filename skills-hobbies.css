@@ -1,0 +1,139 @@
+
+.sect__skills-hobbies {
+    padding: 4rem 5rem;
+}
+
+.sect-flex__skhob {
+    margin-top: 4rem;
+}
+
+.title-principal_skills-hobbies {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.sect_hobbies {
+    margin-top: 5rem;
+}
+
+.items_skills, .items_hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+.title_skills, .title_hobbies {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.item-skills_fondo, .item-hobbies_fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.8rem;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.fondo__icono-hobbies, .fondo__icono-skills {
+    background-color: var(--color-background-gris-claro);
+    padding: 2rem 3rem;
+}
+
+.fondo__icono-hobbies:hover, .fondo__icono-skills:hover {
+    box-shadow: 0 0 5px var(--color-azul-claro);
+    transition: 1s;
+}
+
+.name_skill, .name_hobbies {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.skills_img, .hobbies_img {
+    width: 28px;
+}
+
+
+/* SKILLS & HOBBIES - RESPONSIVE */
+
+@media (max-width: 800px) {
+    .sect__skills-hobbies {
+        padding: 4rem 2rem;
+    }
+
+    .sect-flex__skhob {
+        justify-content: center;
+    }
+
+    .title-principal_skills-hobbies {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+
+    .title_skills, .title_hobbies {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .item-skills_fondo, .item-hobbies_fondo {
+        width: 200px;
+        height: 100px;
+    }
+    
+    .items_skills, .items_hobbies {
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    
+    .sect_skills, .sect_hobbies {
+        text-align: center;
+    }
+
+    .name_skill, .name_hobbies {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .sect__skills-hobbies {
+        padding: 4rem 1.2rem;
+    }
+
+    .title-principal_skills-hobbies {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+
+    .title_skills, .title_hobbies {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .item-skills_fondo, .item-hobbies_fondo {
+        width: 200px;
+        height: 100px;
+    }
+    
+    .items_skills, .items_hobbies {
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    
+    .sect_skills, .sect_hobbies {
+        text-align: center;
+    }
+
+    .name_skill, .name_hobbies {
+        font-size: 0.9rem;
+    }
+    
+}

@@ -1,0 +1,85 @@
+
+.header__items-nav {
+    padding: 1.5rem 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name_logo {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    user-select: none;
+}
+
+.letterB {
+    color: var(--color-azul);
+}
+
+.my-self {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.s_punto {
+    color: var(--color-naranja);
+    margin-left: 0.1rem;
+}
+
+.ul__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.ul__items li a {
+    font-weight: 300;
+    font-size: 0.87rem;
+}
+
+.ul__items li a:hover {
+    color: var(--color-azul);
+}
+
+.boton__contacto-fer {
+    background: none;
+    border: 2px solid var(--color-borde-gris);
+    border-color: var(--color-borde-gris);
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 0.87rem;
+    user-select: none;
+}
+
+.boton__contacto-fer:hover {
+    border-color: var(--color-azul);
+    color: var(--color-azul);
+}
+
+
+/* HEADER RESPONSIVE */
+
+@media (max-width: 500px) {
+    .header__items-nav {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .item_nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header__items-nav {
+        padding: 1.5rem 2rem;
+    }
+
+    .item_nav {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cormorant+Garamond:wght@300&family=Diplomata+SC&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Estonia&family=Fleur+De+Leah&family=Gayathri:wght@100&family=Gowun+Batang&family=Grey+Qo&family=Inconsolata:wght@300&family=Josefin+Sans:wght@200;300;500;600;700&family=Josefin+Slab:wght@500&family=League+Spartan:wght@200;300;400;600&family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300&family=Monsieur+La+Doulaise&family=Montserrat:wght@200;300;600;700&family=Peralta&family=Quicksand&family=Raleway:wght@200;300;400;600&family=Righteous&family=Smokum&family=Ubuntu:wght@300;400;500;700&family=Zen+Tokyo+Zoo&display=swap');
+
+:root {
+    --fuente-lexendDeca: 'Lexend Deca', sans-serif;
+    --color-naranja: #FE481C;
+    --color-naranja-background: #FE481C;
+    --color-negro-text: #110F0B;
+    --color-borde-gris: #adadad;
+    --color-borde-gris-claro: #e4e4e4;
+    --color-background-gris-claro: #fdfdfd;
+    --background-grisClaro: #EEF0F2;
+    --color-text-white: #FFFFFF;
+    --color-background-white: #FFFFFF;
+    --color-background-DED1C1: #DED1C1;
+    --color-262626-background: #262626;
+    --color-azul: #0049FF;
+    --color-azul-claro: #0048ff79;
+    --background-color-yellow: #FCDB69;
+}
+
+* {
+    font-family: var(--fuente-lexendDeca);
+}
+
+img {
+    user-select: none;
+}
+
+*::selection {
+    color: var(--color-text-white);
+    background-color: var(--color-azul);
+}
+
+body {
+    background-color: var(--color-background-white);
+}
+
+

@@ -1,0 +1,42 @@
+
+.sect__sobre-mi {
+    padding: 4rem 0;
+    background-color: var(--background-grisClaro);
+}
+
+.title__description {
+    padding: 0 5rem;
+}
+
+.title_sobre-mi {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.sobre-mi__text {
+    font-weight: 200;
+    margin-bottom: .6rem;
+}
+
+/* SOBRE MI - RESPONSIVE */
+
+@media (max-width: 800px) {
+    .title__description {
+        padding: 0 2rem;
+    }
+    
+    .title_sobre-mi {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .title__description {
+        padding: 0 1.2rem;
+    }
+    
+    .title_sobre-mi {
+        font-size: 2.2rem;
+    }
+}

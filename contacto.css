@@ -1,0 +1,124 @@
+
+.sect__contacto {
+    padding: 0 5rem;
+    background-color: var(--background-grisClaro);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__contactame {
+    width: 500px;
+    height: 700px;
+}
+
+.title__information {
+    margin-bottom: 2rem;
+}
+
+.information_contacto {
+    margin-top: 1rem;
+}
+
+.title__contacto {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.emoji-saludar {
+    width: 60px;
+}
+
+.information-text {
+    font-weight: 350;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+.input-tema, .input-form-text {
+    height: 2rem;
+    outline: none;
+    padding: 0 0.8rem;
+    font-weight: 200;
+    border: 1px solid var(--color-borde-gris-claro);
+    background-color: var(--color-background-gris-claro);
+}
+
+.mensaje_textarea {
+    resize: none;
+    outline: none;
+    padding: 0.5rem 0.8rem;
+    font-weight: 200;
+    border: 1px solid var(--color-borde-gris-claro);
+    background-color: var(--color-background-gris-claro);
+}
+
+.name_info {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.input-form-text:focus, .input-tema:focus, .mensaje_textarea:focus {
+    border-color: var(--color-azul);
+    background-color: #fff;
+}
+
+.boton_enviar {
+    margin-top: 2rem;
+}
+
+.submit_boton {
+    padding: 0.9rem 4rem;
+    outline: none;
+    font-weight: 200;
+    color: var(--color-text-white);
+    background-color: var(--color-azul);
+    border: none;
+    cursor: pointer;
+}
+
+/* CONTACTON - RESPONSIVE */
+
+@media (max-width: 800px) {
+    .sect__contacto {
+        padding: 4rem 2rem;
+    }
+
+    .title__contacto {    
+        font-size: 2.2rem;
+    }
+    
+    .emoji-saludar {
+        width: 40px;
+    }
+
+    .img__contactame {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .sect__contacto {
+        padding: 4rem 1.2rem;
+    }
+
+    .title__contacto {    
+        font-size: 2.2rem;
+    }
+    
+    .emoji-saludar {
+        width: 40px;
+    }
+    
+}

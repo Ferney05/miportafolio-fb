@@ -1,0 +1,116 @@
+
+.sect__experiencia-profesional {
+    padding: 4rem 5rem;
+}
+
+.title_proyectos {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.container__proyectos {
+    margin-top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.name-proyecto__verProyecto {
+    margin-top: 1rem;
+}
+
+.name__proyecto {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.boton__ver-proyecto {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color-azul);
+    color: var(--color-text-white);
+
+    display: flex;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.boton__ver-proyecto:hover {
+    opacity: 0.8;
+}
+
+.logo-proyecto {
+    width: 500px;
+    height: 250px;
+    
+    box-shadow: 0 0 10px var(--color-borde-gris-claro);
+}
+
+/* PROYECTOS - RESPONSIVE */
+
+@media (max-width: 800px) {
+    
+    .sect__experiencia-profesional {
+        padding: 4rem 2rem;
+    }
+
+    .title_proyectos {
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .container__proyectos {
+        justify-content: center;
+    }
+
+    .name__proyecto {
+        font-size: 1rem;
+    }
+
+    .boton__ver-proyecto {
+        font-size: 0.9rem;
+    }
+
+    .logo-proyecto {
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .sect__experiencia-profesional {
+        padding: 4rem 1.2rem;
+    }
+
+    .title_proyectos {
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .container__proyectos {
+        justify-content: center;
+    }
+
+    .name__proyecto {
+        font-size: 1rem;
+    }
+
+    .boton__ver-proyecto {
+        font-size: 0.9rem;
+    }
+
+    .logo-proyecto {
+        width: 350px;
+        height: 180px;
+    }
+}

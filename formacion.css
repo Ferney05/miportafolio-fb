@@ -1,0 +1,98 @@
+
+.sect__formacion-profesional {
+    background-color: var(--background-grisClaro);
+}
+
+.formacion-profesiona_container {
+    padding: 4rem 5rem;
+    margin-top: 2rem;
+}
+
+.title__formacion-profesional {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.formacion-profesional__educations {
+    padding: 2rem 0;
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.decoration_formacion {
+    background-color: var(--color-background-white);
+    width: 350px;
+    height: 200px;
+    margin-bottom: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.name-formacion {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.periodo-education {
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+
+.logo_educacion-university {
+    width: 200px;
+    height: 60px;
+}
+
+
+/* FORMACIÓN - RESPONSIVE */
+
+@media (max-width: 800px){
+    .formacion-profesiona_container {
+        padding: 4rem 2rem;
+    }
+    
+    .title__formacion-profesional {
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .formacion-profesional__educations {
+        justify-content: center;
+    }
+
+    .logo_educacion-university {
+        width: 180px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 500px){
+    .formacion-profesiona_container {
+        padding: 4rem 1.2rem;
+    }
+    
+    .title__formacion-profesional {
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .formacion-profesional__educations {
+        justify-content: center;
+    }
+
+    .logo_educacion-university {
+        width: 160px;
+        height: 50px;
+    }
+}
