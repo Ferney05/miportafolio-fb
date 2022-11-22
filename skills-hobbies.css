@@ -124,10 +124,10 @@
     }
     
     .items_skills, .items_hobbies {
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 2.5rem;
     }
-    
+
     .sect_skills, .sect_hobbies {
         text-align: center;
     }
